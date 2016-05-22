@@ -1,1 +1,2 @@
 # kenriko
+'Choose a seat not a side. We’re all family once the knot is tied.' - Your invited to Kenneth and Mariko's wedding. Here you will find all of the information necessary for our wedding. if you have any qeustions regarding the cermony, please feel free to contact us via email or in person.
