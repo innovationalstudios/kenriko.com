@@ -3254,7 +3254,7 @@
 		-webkit-transition: background-color 0.2s ease;
 		-ms-transition: background-color 0.2s ease;
 		transition: background-color 0.2s ease;
-		background: #9C7DB9;
+		background: #403B56;
 		height: 3em;
 		left: 0;
 		line-height: 3em;
@@ -3524,7 +3524,7 @@
 
 			#banner {
 				padding: 7em 3em 5em 3em ;
-				height: auto;
+				height: 100vh;
 				min-height: 0;
 			}
 
@@ -3533,10 +3533,6 @@
 				}
 
 				#banner br {
-					display: none;
-				}
-
-				#banner .more {
 					display: none;
 				}
 
