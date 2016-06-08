@@ -3113,7 +3113,7 @@
 		@media screen and (max-width: 980px) {
 
 			.wrapper {
-				padding: 4em 3em 2em 3em ;
+				padding: 3em 3em 2em 3em ;
 			}
 
 		}
@@ -3121,7 +3121,7 @@
 		@media screen and (max-width: 736px) {
 
 			.wrapper {
-				padding: 3em 2em 1em 2em ;
+				padding: 2em 2em 1em 2em ;
 			}
 
 		}
@@ -3530,6 +3530,13 @@
 			width: 250px;
 		}
 
+		#banner .header-bottom {
+			position: absolute;
+			bottom: -1px;
+			left: 0;
+			width: 100%;
+		}
+
 		@media screen and (max-width: 736px) {
 
 			#banner {
@@ -3547,7 +3554,7 @@
 		@media screen and (max-width: 480px) {
 
 			#banner p {
-				font-size: 0.9em;
+				font-size: 0.8em;
 			}
 		}
 
