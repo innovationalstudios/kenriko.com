@@ -1543,7 +1543,7 @@
 	hr {
 		border: 0;
 		border-bottom: solid 2px #fff;
-		margin: 3em 0;
+		margin: 1em 0;
 	}
 
 		hr.major {
@@ -1621,7 +1621,6 @@
 
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
 			display: inline-block;
-			padding-bottom: 1em;
 			position: relative;
 		}
 
@@ -3390,6 +3389,7 @@
 		overflow: hidden;
 		position: relative;
 		text-align: center;
+		border-bottom: 3px solid #9c7db9;
 	}
 
 		#banner h2 {
@@ -3510,7 +3510,6 @@
 			-ms-transition-delay: 1.25s;
 			transition-delay: 1.25s;
 			content: '';
-			background: #9C7DB9;
 			display: block;
 			width: 100%;
 			height: 100%;
@@ -3526,13 +3525,6 @@
 
 		#banner .title-underline {
 			width: 250px;
-		}
-
-		#banner .header-bottom {
-			position: absolute;
-			bottom: -1px;
-			left: 0;
-			width: 100%;
 		}
 
 		@media screen and (max-width: 736px) {
@@ -4230,18 +4222,21 @@
 Custom CSS
 
 ==================== */
-.our-story {
-	padding-top: 1em;
-	background-color: #2d2d2d;
+
+.family {
+	padding: 2em;
+	overflow: hidden;
+	background-color: #403b56;
+	border-bottom: 3px solid #9c7db9;
 }
-
-	.our-story .seilie-family img,
-	.our-story .ishikawa-family img {
-	}
-
-	.our-story .seilie-family {
+	.family .seilie-family {
 		float: left;
 	}
-	.our-story .ishikawa-family {
+	.family .ishikawa-family {
 		float: right;
 	}
+
+.our-story {
+	padding-top: 2em;
+	background-color: #2d2d2d;
+}
