@@ -1486,7 +1486,7 @@
 		}
 
 	h2 {
-		font-size: 2.75em;
+		font-size: 2.50em;
 		line-height: 1.25em;
 	}
 
@@ -3819,8 +3819,6 @@
 #cd-timeline {
   position: relative;
   padding: 2em 0;
-  margin-top: 2em;
-  margin-bottom: 2em;
 }
 #cd-timeline::before {
   /* this is the vertical line */
@@ -3829,17 +3827,13 @@
   top: 0;
   left: 18px;
   height: 100%;
-  width: 4px;
-  background: #d7e4ed;
+  width: 2px;
+  background: #fff;
 }
 @media only screen and (min-width: 1170px) {
-  #cd-timeline {
-    margin-top: 3em;
-    margin-bottom: 3em;
-  }
   #cd-timeline::before {
     left: 50%;
-    margin-left: -2px;
+    margin-left: -1px;
   }
 }
 
@@ -3872,13 +3866,13 @@
 
 .cd-timeline-img {
   position: absolute;
-  top: 0;
+  top: 13px;
   left: 0;
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
-	background-color: #9C7DB9;
-  box-shadow: 0 0 0 3px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+	background-color: #fff;
+	margin-left: 10px;
 
 	/* Force Hardware Acceleration in WebKit */
 	-webkit-transform: translateZ(0);
@@ -3905,10 +3899,11 @@
 }
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
-    width: 60px;
-    height: 60px;
+    width: 20px;
+    height: 20px;
+		top: 20px;
     left: 50%;
-    margin-left: -30px;
+    margin-left: -10px;
   }
 }
 .cssanimations .cd-timeline-img.is-hidden {
@@ -3982,6 +3977,8 @@
   position: relative;
   margin-left: 60px;
   padding: 1em;
+	background-color: #fff;
+	border-radius: 3px;
 }
 .cd-timeline-content:after {
   content: "";
@@ -4238,5 +4235,5 @@ Custom CSS
 
 .our-story {
 	padding-top: 2em;
-	background-color: #2d2d2d;
+	background: #2d2d2d;
 }
