@@ -4231,5 +4231,5 @@ Custom CSS
 
 .our-story {
 	padding-top: 2em;
-	background: #2d2d2d;
+	background: url('../../images/our-story-bg.png') repeat transparent left top;
 }
