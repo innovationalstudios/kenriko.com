@@ -4230,7 +4230,6 @@ Custom CSS
 	}
 
 .our-story {
-	position: relative;
 	padding: 4em 0 0;
 	background: url('../../images/our-story-bg.png') repeat transparent left top;
 }
@@ -4240,9 +4239,23 @@ Custom CSS
 	.our-story header.major {
 		margin: 0;
 	}
-	.our-story .coffee-mug {
+	.our-story #cd-timeline {
+		position: relative;
+	}
+	.our-story #cd-timeline .coffee-mug {
 		position: absolute;
-		bottom: -61px;
-		width: 151px;
-		margin-left: -54px;
+		bottom: -49px;
+		width: 121px;
+		margin-left: 0;
+		left: -25px;
+	}
+	@media only screen and (min-width: 1170px) {
+
+		.our-story #cd-timeline .coffee-mug {
+			bottom: -61px;
+			width: 151px;
+			margin-left: -54px;
+			left: auto;
+		}
+
 	}
