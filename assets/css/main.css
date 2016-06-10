@@ -4015,7 +4015,7 @@ header.major .cd-timeline-content h2 {
 .cd-timeline-content .cd-date {
   float: left;
   padding: 0.8em 2.5em;
-  opacity: .7;
+  opacity: 0.35;
 	font-style: italic;
 }
 @media only screen and (min-width: 768px) {
@@ -4230,6 +4230,19 @@ Custom CSS
 	}
 
 .our-story {
-	padding-top: 2em;
+	position: relative;
+	padding: 4em 0 0;
 	background: url('../../images/our-story-bg.png') repeat transparent left top;
 }
+	.our-story .inner {
+		background: url('../../images/forest-illustrations.svg') repeat-y transparent center top;
+	}
+	.our-story header.major {
+		margin: 0;
+	}
+	.our-story .coffee-mug {
+		position: absolute;
+		bottom: -61px;
+		width: 151px;
+		margin-left: -54px;
+	}
