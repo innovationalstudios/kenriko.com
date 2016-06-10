@@ -3976,6 +3976,7 @@
   position: relative;
 	top: -19px;
   margin-left: 25px;
+	padding-right: 25px;
 }
 .cd-timeline-content:after {
   content: "";
