@@ -3999,7 +3999,7 @@ header.major .cd-timeline-content h2 {
   display: inline-block;
 }
 .cd-timeline-content p {
-  margin: 1em 0;
+  margin: 1em 0 0;
   line-height: 1.6;
 }
 .cd-timeline-content .cd-read-more {
@@ -4259,3 +4259,24 @@ Custom CSS
 		}
 
 	}
+		.our-story #cd-timeline .cd-timeline-content p {
+			clear: both;
+			padding: 0 2.5em;
+			text-align: left;
+		}
+		.our-story #cd-timeline .cd-timeline-content a {
+			border: none;
+			display: inline-block;
+		}
+			.our-story #cd-timeline .cd-timeline-content a img {
+				border: 2px solid #2d2d2d;
+				height: 50px;
+				opacity: 1;
+				-moz-transition: border 0.5s ease;
+				-webkit-transition: border 0.5s ease;
+				-ms-transition: border 0.5s ease;
+				transition: border 0.5s ease;
+			}
+			.our-story #cd-timeline .cd-timeline-content a img:hover {
+				border-color: #fff;
+			}
