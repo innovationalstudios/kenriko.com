@@ -126,5 +126,8 @@
 
 
 	// Initialize Chocolat JS - Lightbox
-  $('.chocolat-parent').Chocolat();
+  $('.chocolat-parent').Chocolat({
+		imageSize: 'contain',
+		enableZoom: false
+	});
 })(jQuery);
