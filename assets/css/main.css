@@ -4233,6 +4233,16 @@ Custom CSS
 	padding: 2em 2em 0;
 	background: url('../../images/our-story-bg.png') repeat transparent left top;
 }
+@media only screen and (max-width: 980px) {
+	.our-story {
+		padding: 4em 3em 0;
+	}
+}
+@media only screen and (max-width: 736px) {
+	.our-story {
+		padding: 4em 2em 0;
+	}
+}
 	.our-story .inner {
 		background: url('../../images/forest-illustrations.svg') repeat-y transparent center top;
 	}
@@ -4266,16 +4276,6 @@ Custom CSS
 		margin-left: 0;
 		left: -25px;
 	}
-	@media only screen and (max-width: 980px) {
-		.our-story {
-			padding: 4em 3em 0;
-		}
-	}
-	@media only screen and (max-width: 736px) {
-		.our-story {
-			padding: 4em 2em 0;
-		}
-	}
 
 	@media only screen and (min-width: 1170px) {
 
@@ -4292,13 +4292,24 @@ Custom CSS
 			padding: 0 2.5em;
 			text-align: left;
 		}
+
+		@media only screen and (min-width: 1170px) {
+
+			.our-story #cd-timeline .cd-timeline-content p {
+				text-align: right;
+			}
+			.our-story #cd-timeline .cd-timeline-block:nth-child(even) .cd-timeline-content p {
+				text-align: left;
+			}
+
+		}
 		.our-story #cd-timeline .cd-timeline-content a {
 			border: none;
 			display: inline-block;
 		}
 			.our-story #cd-timeline .cd-timeline-content a img {
 				border: 2px solid #2d2d2d;
-				height: 50px;
+				height: 100px;
 				opacity: 1;
 				-moz-transition: border 0.5s ease;
 				-webkit-transition: border 0.5s ease;
@@ -4307,4 +4318,9 @@ Custom CSS
 			}
 			.our-story #cd-timeline .cd-timeline-content a img:hover {
 				border-color: #fff;
+			}
+			@media only screen and (max-width: 480px) {
+				.our-story #cd-timeline .cd-timeline-content a img {
+					height: 50px;
+				}
 			}
