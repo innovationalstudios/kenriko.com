@@ -130,4 +130,7 @@
 		imageSize: 'contain',
 		enableZoom: false
 	});
+
+	// Initialize Lazyload
+	$(".chocolat-image img").lazyload();
 })(jQuery);
