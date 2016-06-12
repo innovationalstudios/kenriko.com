@@ -123,5 +123,8 @@
 		});
 	}
 	// END Timeline JS
-	
+
+
+	// Initialize Chocolat JS - Lightbox
+  $('.chocolat-parent').Chocolat();
 })(jQuery);

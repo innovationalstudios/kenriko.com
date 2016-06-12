@@ -3255,7 +3255,7 @@
 		position: fixed;
 		top: 0;
 		width: 100%;
-		z-index: 10000;
+		z-index: 10;
 	}
 
 		#header h1 {
@@ -3389,7 +3389,6 @@
 		overflow: hidden;
 		position: relative;
 		text-align: center;
-		border-bottom: 3px solid #9c7db9;
 	}
 
 		#banner h2 {
@@ -4036,7 +4035,6 @@ header.major .cd-timeline-content h2 {
 @media only screen and (min-width: 1170px) {
   .cd-timeline-content {
 		top: -25px;
-    margin-left: 0;
     width: 50%;
   }
   .cd-timeline-content .cd-read-more {
@@ -4052,6 +4050,7 @@ header.major .cd-timeline-content h2 {
     width: 100%;
     left: 100%;
     top: 19px;
+		margin-left: -25px;
 		text-align: left;
     font-size: 16px;
     font-size: 1rem;
@@ -4231,7 +4230,7 @@ Custom CSS
 	}
 
 .our-story {
-	padding: 4em 0 0;
+	padding: 2em 2em 0;
 	background: url('../../images/our-story-bg.png') repeat transparent left top;
 }
 	.our-story .inner {
@@ -4240,6 +4239,23 @@ Custom CSS
 	.our-story header.major {
 		margin: 0;
 	}
+		.our-story header.major .title-decoration {
+			display: block;
+			background: url('../../images/story-top.svg') no-repeat transparent center top;
+			background-size: contain;
+			padding: 2.5em 0 0;
+		}
+		@media only screen and (max-width: 980px) {
+			.our-story header.major .title-decoration {
+				padding: 2em 0 0;
+			}
+		}
+		@media only screen and (max-width: 480px) {
+			.our-story header.major .title-decoration {
+				padding: 1.5em 0 0;
+			}
+		}
+
 	.our-story #cd-timeline {
 		position: relative;
 	}
@@ -4250,6 +4266,17 @@ Custom CSS
 		margin-left: 0;
 		left: -25px;
 	}
+	@media only screen and (max-width: 980px) {
+		.our-story {
+			padding: 4em 3em 0;
+		}
+	}
+	@media only screen and (max-width: 736px) {
+		.our-story {
+			padding: 4em 2em 0;
+		}
+	}
+
 	@media only screen and (min-width: 1170px) {
 
 		.our-story #cd-timeline .coffee-mug {
