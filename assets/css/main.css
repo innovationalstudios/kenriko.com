@@ -3989,7 +3989,7 @@ header.major .cd-timeline-content h2 {
 	font: 13px 'Lora', serif;
 	text-align: left;
 	display: block;
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid rgba(255,255,255, 0.25);
 }
 .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   font-size: 13px;
