@@ -3494,7 +3494,7 @@
 				position: absolute;
 				width: 1.5em;
 			}
-
+/*
 		#banner:after {
 			-moz-pointer-events: none;
 			-webkit-pointer-events: none;
@@ -3518,7 +3518,7 @@
 			opacity: 0;
 			background: url('../../images/header-bg.jpg') repeat left top transparent;
 		}
-
+*/
 		#banner .puffin {
 			width: 150px;
 		}
