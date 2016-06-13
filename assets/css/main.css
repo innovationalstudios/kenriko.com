@@ -3115,7 +3115,7 @@
 		@media screen and (max-width: 736px) {
 
 			.wrapper {
-				padding: 2em 2em 1em 2em ;
+				padding: 4em 2em 1em 2em ;
 			}
 
 		}
@@ -4324,3 +4324,20 @@ Custom CSS
 					height: 50px;
 				}
 			}
+
+.ceremony.wrapper.style3 {
+	background-color: #7a68ae;
+}
+	.ceremony .ceremony-details {
+		width: 50%;
+	}
+	@media only screen and (max-width: 980px) {
+		.ceremony .ceremony-details {
+			width: 75%;
+		}
+	}
+	@media only screen and (max-width: 480px) {
+		.ceremony .ceremony-details {
+			width: 100%;
+		}
+	}
