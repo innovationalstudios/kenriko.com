@@ -127,8 +127,9 @@
 
 	// Initialize Chocolat JS - Lightbox
   $('.chocolat-parent').Chocolat({
-		imageSize: 'contain',
-		enableZoom: false
+		imageSize: 'default',
+		enableZoom: false,
+		fullScreen: false
 	});
 
 	// Initialize Lazyload
