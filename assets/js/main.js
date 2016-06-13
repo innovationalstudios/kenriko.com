@@ -132,6 +132,10 @@
 		fullScreen: false
 	});
 
-	// Initialize Lazyload
+	/* Initialize Lazyload
 	$(".chocolat-image img").lazyload();
+	*/
+
+	/* Initialize page loader */
+	$('.loader-container').fadeOut();
 })(jQuery);
