@@ -1397,7 +1397,7 @@
 	}
 
 	body {
-		background: #fff;
+		background: #000;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -4080,14 +4080,14 @@ header.major .cd-timeline-content h2 {
 .cssanimations .cd-timeline-content.is-hidden {
 	visibility: hidden;
 }
-.cssanimations .cd-timeline-content.bounce-in {
-	visibility: visible;
-	-webkit-animation: cd-bounce-2 0.6s;
-	-moz-animation: cd-bounce-2 0.6s;
-	animation: cd-bounce-2 0.6s;
-}
 
 @media only screen and (min-width: 1170px) {
+	.cssanimations .cd-timeline-content.bounce-in {
+		visibility: visible;
+		-webkit-animation: cd-bounce-2 0.6s;
+		-moz-animation: cd-bounce-2 0.6s;
+		animation: cd-bounce-2 0.6s;
+	}
   /* inverse bounce effect on even content blocks */
   .cssanimations .cd-timeline-block:nth-child(even) .cd-timeline-content.bounce-in {
     -webkit-animation: cd-bounce-2-inverse 0.6s;
