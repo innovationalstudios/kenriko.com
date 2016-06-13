@@ -3571,9 +3571,9 @@
 		opacity: 1;
 	}
 
-/* CTA */
+/* Registry */
 
-	#cta .inner {
+	#registry .inner {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3581,7 +3581,7 @@
 		max-width: 45em;
 	}
 
-		#cta .inner header {
+		#registry .inner header {
 			-moz-order: 1;
 			-webkit-order: 1;
 			-ms-order: 1;
@@ -3590,11 +3590,11 @@
 			width: 70%;
 		}
 
-			#cta .inner header p {
+			#registry .inner header p {
 				color: inherit;
 			}
 
-		#cta .inner .actions {
+		#registry .inner .actions {
 			-moz-order: 2;
 			-webkit-order: 2;
 			-ms-order: 2;
@@ -3604,17 +3604,17 @@
 
 		@media screen and (max-width: 980px) {
 
-			#cta .inner {
+			#registry .inner {
 				display: block;
 				text-align: center;
 			}
 
-				#cta .inner header {
+				#registry .inner header {
 					padding-right: 0;
 					width: 100%;
 				}
 
-				#cta .inner .actions {
+				#registry .inner .actions {
 					margin-left: auto;
 					margin-right: auto;
 					max-width: 20em;
@@ -3625,7 +3625,7 @@
 
 		@media screen and (max-width: 736px) {
 
-			#cta .inner .actions {
+			#registry .inner .actions {
 				max-width: none;
 			}
 
