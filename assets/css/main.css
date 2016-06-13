@@ -4216,7 +4216,7 @@ Preloader
 
 ==================== */
 .loader-container {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	background-color: #9c7db9;
