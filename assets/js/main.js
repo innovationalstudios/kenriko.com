@@ -171,7 +171,9 @@
 				        $('#page-wrapper').fadeIn("slow");
 				        (loader).fadeOut("fast");
 				        /*Set time in milisec */
-								$('.loader-container').fadeOut("fast");
+								$('.loader-container').fadeOut("fast", function() {
+									$(this).remove();
+								});
 				      },3500);
 				    });
 
@@ -179,7 +181,25 @@
 
 				loaderSpinner();
 
-
-
-
 })(jQuery);
+
+// Initialize Google maps
+function initMap() {
+
+	var myLatlng = {lat: 47.5421286, lng: -121.8366726};
+
+  var map = new google.maps.Map(document.getElementById("googleMap"), {
+    center: myLatlng,
+    zoom: 16,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+	});
+
+  var marker = new google.maps.Marker({
+    map: map,
+    position: myLatlng,
+    title: 'Salish Lodge & Spa'
+  });
+
+	marker.setMap(map);
+
+}
