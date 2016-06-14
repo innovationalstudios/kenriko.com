@@ -136,14 +136,14 @@
 	$(".chocolat-image img").lazyload();
 	*/
 
-	/* Initialize page loader */
+	/* Initialize page loader
 	 function loaderSpinner() {
     $(window).load(function() {
 	      var loader = $('.loader');
 				var wHeight = $(window).height();
 				var wWidth = $(window).width();
 				var i = 0;
-				/*Center loader on half screen */
+
 				loader.css({
 				    top: wHeight / 2 - 2.5,
 				    left: wWidth / 2 - 200
@@ -166,11 +166,11 @@
 				    })
 				  }
 
-				      /* This line hide loader and show content */
+
 				      setTimeout(function(){
 				        $('#page-wrapper').fadeIn("slow");
 				        (loader).fadeOut("fast");
-				        /*Set time in milisec */
+
 								$('.loader-container').fadeOut("fast", function() {
 									$(this).remove();
 								});
@@ -180,7 +180,7 @@
 				}
 
 				loaderSpinner();
-
+		*/
 })(jQuery);
 
 // Initialize Google maps

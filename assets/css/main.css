@@ -4218,8 +4218,6 @@ header.major .cd-timeline-content h2 {
 /* ====================
 
 Preloader
-
-==================== */
 .loader-container {
 	position: fixed;
 	top: 0;
@@ -4236,6 +4234,8 @@ Preloader
   background-color: #fff;
   position: absolute;
 }
+
+==================== */
 
 
 /* ===================
