@@ -2421,7 +2421,7 @@
 
 			.features li:before {
 				display: block;
-				color: #00ffcc;
+				color: #fff;
 				position: absolute;
 				left: 1.75em;
 				top: 2.75em;
@@ -4374,6 +4374,9 @@ Custom CSS
 		}
 	}
 
+#more-ceremony-details h2 {
+	margin: 0 0 0.5em;
+}
 
 #registry {
 	background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
