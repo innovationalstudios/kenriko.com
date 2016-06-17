@@ -197,6 +197,7 @@ function initMap() {
   var marker = new google.maps.Marker({
     map: map,
     position: myLatlng,
+  	animation:google.maps.Animation.BOUNCE,
     title: 'Salish Lodge & Spa'
   });
 
