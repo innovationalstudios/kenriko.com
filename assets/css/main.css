@@ -3526,6 +3526,7 @@
 		}
 
 		#banner .title-underline {
+			height: 48px;
 			width: 250px;
 		}
 
