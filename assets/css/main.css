@@ -4409,3 +4409,9 @@ Custom CSS
 		height: 300px;
 	}
 }
+	.map .map-text, .map .map-text strong {
+		color: #000;
+	}
+	.map .map-text a:link, .map .map-text a:visited {
+		color: #0072ff;
+	}

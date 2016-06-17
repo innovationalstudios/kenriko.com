@@ -190,7 +190,7 @@ function initMap() {
 
   var map = new google.maps.Map(document.getElementById("googleMap"), {
     center: myLatlng,
-    zoom: 16,
+    zoom: 10,
     mapTypeId:google.maps.MapTypeId.ROADMAP
 	});
 
@@ -200,6 +200,11 @@ function initMap() {
   	animation:google.maps.Animation.BOUNCE
   });
 
+	var infowindow = new google.maps.InfoWindow({
+  	content:"<div class='map-text'><strong>Salish Lodge Dining Room</strong><br />6501 Railroad Ave<br />Snoqualmie, WA 98065<br /><a href='https://www.google.com/maps?ll=47.542129,-121.836673&z=16&t=m&hl=en-US&gl=US&mapclient=apiv3&cid=8529745677440333048'>View on Google Maps</a></div>"
+  });
+
 	marker.setMap(map);
+	infowindow.open(map,marker);
 
 }
