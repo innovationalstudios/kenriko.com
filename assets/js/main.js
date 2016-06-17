@@ -206,5 +206,6 @@ function initMap() {
 
 	marker.setMap(map);
 	infowindow.open(map,marker);
+	map.setOptions({draggable: false});
 
 }
