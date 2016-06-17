@@ -3604,6 +3604,7 @@
 			-ms-order: 2;
 			order: 2;
 			width: 30%;
+			margin-top: 5.9em;
 		}
 
 		@media screen and (max-width: 980px) {
@@ -3623,6 +3624,7 @@
 					margin-right: auto;
 					max-width: 20em;
 					width: 100%;
+					margin-top: 0;
 				}
 
 		}
@@ -4388,9 +4390,6 @@ Custom CSS
 	border-top: 0.5em solid #52285b;
 	border-bottom: 0.5em solid #52285b;
 }
-	.registry h2 {
-		margin-top: -0.65em;
-	}
 	.registry p {
 		padding: 0;
 	}
